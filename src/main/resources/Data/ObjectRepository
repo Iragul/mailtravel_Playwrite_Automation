@@ -1,0 +1,23 @@
+url                      = https://www.mailtravel.co.uk/
+
+driverpath               = \\src\\main\\resources\\chromedriver.exe
+
+Acceptcookies            = //*[@id="onetrust-accept-btn-handler"]
+
+SearchTextBox            = //*[@id="searchtext_freetext_search_form"]
+
+SearchButton             = //*[@id="freetext_search_form"]/form/button
+
+Searchoption             = //*[@id="as_ul"]/li[1]/a
+
+Calender                 = //*[@class='nbf_tpl_pms_calendar']
+
+Firstdate                = //*[@class='nbf_tpl_pms_calendar_box_select']
+
+Firstprice               =  //*[@class='nbf_tpl_pms_calendar_price']
+
+Adultcount               = //*[@name='numAdults']
+
+Totalprice               = //*[@id="tour-price"]/span
+
+BookOnline               = //*[@id="book-f0050aa159413059b0d39248658bdb50"]/button

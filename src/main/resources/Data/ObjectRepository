@@ -20,4 +20,57 @@ Adultcount               = //*[@name='numAdults']
 
 Totalprice               = //*[@id="tour-price"]/span
 
-BookOnline               = //*[@id="book-f0050aa159413059b0d39248658bdb50"]/button
+BookOnline               = //*[@id='book-button']/div/button
+
+roomchoose               = //*[@id="room-1843061-numselect"]
+
+selectroom               = //*[@id="accomForm-select"]/button
+
+withoutextra             = //*[@class="nbf_tpl_pms_bf_panel"]/div/div/div/div/form/div/button
+
+title1                   = //*[@id="pax-a-title-1"]
+
+fistname1                = //*[@id="pax-a-first-1"]
+
+Lastname1                 = //*[@id="pax-a-last-1"]
+
+dobd1                    = //*[@id="pax-a-dobd-1"]
+
+dobm1                    = //*[@id="pax-a-dobm-1"]
+
+doby1                    = //*[@id="pax-a-doby-1"]
+
+title2                   = //*[@id="pax-a-title-2"]
+
+fistname2                = //*[@id="pax-a-first-2"]
+
+Lastname2                = //*[@id="pax-a-last-2"]
+
+dobd2                    = //*[@id="pax-a-dobd-2"]
+
+dobm2                    = //*[@id="pax-a-dobm-2"]
+
+doby2                    = //*[@id="pax-a-doby-2"]
+
+yourname                 = //*[@id="contact-name"]
+
+mobilenumber             = //*[@id="contact-mobile"]
+
+email                    = //*[@id="contact-email"]
+
+Addressline1             = //*[@id="contact-address1"]
+
+Addressline2             = //*[@id="contact-address2"]
+
+city                     = //*[@id="contact-city"]
+
+postcode                 = //*[@id="contact-postcode"]
+
+pleaseselect             = //*[@id="contact-hearabout"]
+
+continuebutton           = //*[@id="paxform-select"]/button
+
+confirmpage              = //*[@id="nbf_container"]/div[1]/h1[2]
+
+bookbutton               = //*[@id="nbf_booknow_button"]
+

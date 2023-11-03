@@ -17,13 +17,11 @@ public class Property {
         return filpath;
     }
     static String strFileName= System.getProperty("user.dir")+"\\src\\main\\resources\\Data\\ObjectRepository";
-   // static String strFileName=filepath() ;
     public Property(){
 
     }
     public Property(String strFileName) {
-        Property.strFileName = strFileName;//this.strFileName = strFileName;
-
+        Property.strFileName = strFileName;
     }
 
 

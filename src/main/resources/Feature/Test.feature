@@ -9,3 +9,7 @@ Feature: mailtravel
     And Select First Avaliable Date
     And Select the Adult Count "2"
     And Validate price
+    And Click Book online button
+    And Select Accommodation
+    And Fill passanger Details and click Continue Button
+    Then Verify the Confirm Details + Book page and verify the Book Now button is enabled

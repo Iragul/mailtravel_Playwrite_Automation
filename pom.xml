@@ -8,13 +8,14 @@
     <artifactId>Practicum</artifactId>
     <version>1.0</version>
 
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
+        <!-- Selenium Dependencies -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
@@ -26,6 +27,13 @@
             <version>3.141.59</version>
         </dependency>
         <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!-- Cucumber Dependencies -->
+        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>6.10.4</version>
@@ -35,34 +43,40 @@
             <artifactId>cucumber-junit</artifactId>
             <version>6.10.4</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version> <!-- Replace with the latest version -->
-        </dependency>
-
 
         <!-- JUnit Dependency -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.8.0</version> <!-- Use the latest version -->
+            <version>5.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.0</version> <!-- Use the latest version -->
+            <version>5.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Cucumber Reporting Dependency -->
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
-            <version>5.6.0</version> <!-- Use the latest version -->
+            <version>5.6.0</version>
             <scope>test</scope>
         </dependency>
 
+        <!-- Playwright Dependency -->
+        <dependency>
+            <groupId>com.microsoft.playwright</groupId>
+            <artifactId>playwright</artifactId>
+            <version>1.22.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
-
 
 </project>

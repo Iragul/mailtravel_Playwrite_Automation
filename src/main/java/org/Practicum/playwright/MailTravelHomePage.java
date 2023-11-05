@@ -12,11 +12,18 @@ import static org.junit.Assert.assertEquals;
 
 public class MailTravelHomePage {
 
-    private final Page page;
+    public static Playwright playwright;
+    public static Browser browser;
+    private static BrowserContext context;
+    private static Page page;
+    public  MailTravelHomePage(){
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+        context = browser.newContext();
+        page = context.newPage();
 
-    public MailTravelHomePage(Page page) {
-        this.page = page;
     }
+
     public static void sleep(long milliseconds) {
         try {
             Thread.sleep(milliseconds);
@@ -59,7 +66,7 @@ public class MailTravelHomePage {
         }
 
     }
-    @And("Step 2")
+    @And("Step 2 {string}")
     public void step2(String searchText) {
         try {
             page.type("input[name='searchtext']", searchText);

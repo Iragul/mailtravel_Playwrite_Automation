@@ -10,32 +10,26 @@ import static org.junit.Assert.assertEquals;
 
 public class MyPlaywrightTests {
 
-    private static Playwright playwright;
-    private static Browser browser;
-    private static BrowserContext context;
-    private static Page page;
+
 
     @BeforeAll
     public static void setUp() {
         ReportManager.startReport();
         ReportManager.createTest("Mail Travel");
-        playwright = Playwright.create();
-        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-        context = browser.newContext();
-        page = context.newPage();
+
 
     }
 
     @AfterAll
     public static void tearDown() {
-        browser.close();
-        playwright.close();
+        MailTravelHomePage.browser.close();
+        MailTravelHomePage.playwright.close();
         ReportManager.flushReport();
     }
 
     @Test
     public void myTest() {
-        MailTravelHomePage mailTravelHomePage = new MailTravelHomePage(page);
+        MailTravelHomePage mailTravelHomePage = new MailTravelHomePage();
         mailTravelHomePage.step1();
         mailTravelHomePage.step2("india");
         mailTravelHomePage.step3();

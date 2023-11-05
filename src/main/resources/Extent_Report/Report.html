@@ -40,7 +40,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-				<span class='label suite-start-time'>05-Nov-2023, 8:42:14 pm</span>
+				<span class='label suite-start-time'>05-Nov-2023, 9:30:51 pm</span>
 			</a>
 			<a href='#!'>
 				<span class='label'>v3.0.1</span>
@@ -61,7 +61,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li class='divider'></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
@@ -126,10 +127,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>0</span> step(s) passed</span>
+					<span><span class='strong'>5</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+					<span class='strong'>0</span> step(s) failed, <span class='strong'>14</span> others
 				</div>
 			</div>
 		</div>
@@ -147,15 +148,123 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Mail Travel</span>
-						<span class='test-time'>05-Nov-2023, 8:42:14 pm</span>
+						<span class='test-time'>05-Nov-2023, 9:30:51 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>05-Nov-2023, 8:42:14 pm</span>
-	<span class='label end-time'>05-Nov-2023, 8:42:14 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+	<span class='label start-time'>05-Nov-2023, 9:30:51 pm</span>
+	<span class='label end-time'>05-Nov-2023, 9:31:40 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 48s+998ms</span>
 </div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:03 pm</td>
+					<td class='step-details'>Navigated to https://www.mailtravel.co.uk/</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:31:03 pm</td>
+					<td class='step-details'>Page title is correct</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:08 pm</td>
+					<td class='step-details'>Accepted all Cookies</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:08 pm</td>
+					<td class='step-details'>Entered india in search box</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:13 pm</td>
+					<td class='step-details'>Selected india in dropdown</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:16 pm</td>
+					<td class='step-details'>Clicked the BookOnline Button</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:16 pm</td>
+					<td class='step-details'>Selected the First Avaliable Date</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:16 pm</td>
+					<td class='step-details'>Selected the 2 Adults</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:31:16 pm</td>
+					<td class='step-details'>Validation for 2 adult price is sucessfull</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:16 pm</td>
+					<td class='step-details'>Clicked the Book Online Buuton</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:31:20 pm</td>
+					<td class='step-details'>Details populated are valid</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:21 pm</td>
+					<td class='step-details'>Selected the Accommodation</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:24 pm</td>
+					<td class='step-details'>Clicked on SELECT YOUR ROOMS AND CONTINUE</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:27 pm</td>
+					<td class='step-details'>Updated Adult 1 Details</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:30 pm</td>
+					<td class='step-details'>Updated Adult 2 Details</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:30 pm</td>
+					<td class='step-details'>Updated the contact Details</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:31:31 pm</td>
+					<td class='step-details'>Clicked on CONTINUE</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:31:39 pm</td>
+					<td class='step-details'>Confirm Details + Book Avaliable</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:31:40 pm</td>
+					<td class='step-details'>Book Now button is enabled</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 					</div>
 				</li>
 			</ul>
@@ -196,25 +305,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>19</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>05-Nov-2023, 8:42:14 pm</div>
+					<div class='panel-lead'>05-Nov-2023, 9:30:51 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>05-Nov-2023, 8:42:18 pm</div>
+			 		<div class='panel-lead'>05-Nov-2023, 9:31:40 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>4,335ms</div>
+					<div class='panel-lead'>49,332ms</div>
 				</div>
 			</div>
 		</div>
@@ -234,13 +343,13 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 0,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 0,
+				infoChild: 14,
 				exceptionsChild: 0,
 				
 				passGrandChild: 0,

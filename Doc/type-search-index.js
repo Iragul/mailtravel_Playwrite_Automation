@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.Practicum.playwright","l":"MailTravelHomePage"},{"p":"org.Practicum.playwright","l":"MyPlaywrightTests"},{"p":"org.Practicum.Report","l":"ReportManager"},{"p":"Runner","l":"RunTest"}];updateSearchResults();
